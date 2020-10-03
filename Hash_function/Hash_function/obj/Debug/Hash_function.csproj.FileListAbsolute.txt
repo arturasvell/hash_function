@@ -1,0 +1,10 @@
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\bin\Debug\Hash_function.exe.config
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\bin\Debug\Hash_function.exe
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\bin\Debug\Hash_function.pdb
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.csprojAssemblyReference.cache
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.Form1.resources
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.Properties.Resources.resources
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.csproj.GenerateResource.cache
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.csproj.CoreCompileInputs.cache
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.exe
+D:\Arturo_kompas\VU\Antras_kursas\Blockchain\Hash_function\Hash_function\obj\Debug\Hash_function.pdb
