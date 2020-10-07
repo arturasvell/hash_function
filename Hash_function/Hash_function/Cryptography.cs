@@ -78,21 +78,23 @@ namespace Hash_function
             timeScores +=  sw.Elapsed.ToString() + " | SHA-256 STRING";
             return sb.ToString();
         }
-
+        
         public static string ArturoHash(string inputString)
         {
-
-            int key = 53;
-            ulong modPrime = (ulong)(Math.Pow(10,9)+9);
-            ulong hashSum = 0;
-
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            int[] keys = { 3, 5, 7, 11, 13, 17, 19, 23 };
+            int sum = 0x54e55;
             for (int i = 0; i < inputString.Length; i++)
             {
-                hashSum += (ulong)((inputString[i]-'a'+1)*Math.Pow(key, i)%modPrime);
-                
+                sum ^= ((sum << keys[i % 8]) + inputString[i] + (sum >> keys[(i+1) % 8] ));
             }
-
-            return hashSum.ToString("X");
+            sum = ((sum >> 8) ^ sum) * 0x45d9f3b;
+            sum = ((sum >> 8) ^ sum) * 0x45d9f3b;
+            sum = (sum >> 8) ^ sum;
+            sw.Stop();
+            timeScores += sw.Elapsed.ToString() + " | ARTURO STRING";
+            return sum.ToString("x");
         }
 
         public static string SHA256File(string inFile)
