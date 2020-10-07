@@ -15,4 +15,4 @@ initialize "sum" with **magic number**\
   sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
   sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
   sum->((sum rightwise 8) XOR sum)\
-  return sum in HEX\
+  return sum in HEX
