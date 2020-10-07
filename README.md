@@ -6,13 +6,13 @@ Programa, skirta testuoti ir lyginti skirtingiems hash algoritmams
 1. Implementuota hash funkcija, kitoje versijoje bus pateiktas skaitymas iš failo ir analizė
 # Custom hash funkcijos pseudokodas
 
-initialize "keys" as integer array with 8 consecutive prime numbers
-initialize "sum" with **magic number**
-  for loop through each character of string
-  {
-      sum <-sum XOR (sum leftwise keys[ i mod 8]+ string[i]+(sum rightwise keys[(i+1) mod 8])
-  }
-  sum->((sum rightwise 8) XOR sum) XOR **another magic number**
-  sum->((sum rightwise 8) XOR sum) XOR **another magic number**
-  sum->((sum rightwise 8) XOR sum)
-  return sum in HEX
+initialize "keys" as integer array with 8 consecutive prime numbers\
+initialize "sum" with **magic number**\
+  for loop through each character of string\
+  {\
+      sum <-sum XOR (sum leftwise keys[ i mod 8]+ string[i]+(sum rightwise keys[(i+1) mod 8])\
+  }\
+  sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
+  sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
+  sum->((sum rightwise 8) XOR sum)\
+  return sum in HEX\
