@@ -15,4 +15,17 @@ initialize "sum" with **magic number**\
   sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
   sum->((sum rightwise 8) XOR sum) XOR **another magic number**\
   sum->((sum rightwise 8) XOR sum)\
+  initialise stringstream\
+  for loop from 0 to 4\
+  {\
+      pass sum* **magic number** to stringstream\
+  }\
+  while(stream string size is less than 64)\
+  {\
+      pass another sum* **magic number** to stringstream\
+  }\
+  while(stream string size is more than 64)\
+  {\
+      result<-remove the last element of result\
+  }\
   return sum in HEX
