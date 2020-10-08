@@ -98,7 +98,7 @@ namespace Hash_function
         {
             if (radioButton1.Checked)
             {
-                MessageBox.Show("wip", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return Cryptography.ArturoHash(inFile);
             }
             else if (radioButton2.Checked)
             {
